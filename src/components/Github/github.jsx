@@ -13,7 +13,6 @@ function Github() {
   return (
     <>
       <div className="bg-gray-700 flex flex-col items-center">
-        <img src={data.avatar_url} alt="" />
         <h1 className="text-center m-4 bg-gray-600 text-white p-4 text-3xl ">
           Name: {data.name}
         </h1>
